@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+body{
+  background-color: #FFEBCD;
+
+}
+
+h1{
+  font-size: 50px;
+  margin-top: 60px;
+  animation: drop 1s ease;
+
+}
+ p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+  }
+ .p1{
+     animation: drop 3s ease;
+
+  }
+  .p2{
+    animation: drop 5s ease;
+
+  }
+
+button{
+   width: 200px;
+   padding: 15px 0;
+   text-align: center;
+   margin: 20px 10px;
+   border-radius: 25px;
+   font-weight: bold;
+   border: 2px solid #009688;
+   background: transparent;
+   color: #000;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+   animation: drop 6s ease;
+}
+
+.texte{
+   animation: drop 8s ease;
+}
+
+span{
+   background: #009688;
+   height: 100%;
+   width: 0;
+   border-radius: 25px;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: -1;
+   transition: 0.5s;
+}
+
+button:hover span{
+   width: 100%;
+}
+
+.big-circle {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+	opacity: 0.5;
+	height: 80%;
+}
+.medium-circle {
+	position: absolute;
+	top: 30%;
+	right: 30%;
+	z-index: -1;
+	height: 60%;
+	opacity: 0.4;
+}
+
+
+
+@media (max-width: 920px){
+    h1{
+      font-size: 25px;
+      margin-top: 30px;
+    }
+     p{
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+        color: #000;
+      }
+
+      button{
+       width: 100px;
+       padding: 5px 0;
+       text-align: center;
+       margin: 10px 5px;
+
+    }
+	.medium-circle,
+	.big-circle {
+		opacity: 0.2;
+	}
+
+}

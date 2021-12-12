@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*::before,
+*::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+section{
+   margin-top: -8vh;
+   display: flex;
+   height: 100%;
+   padding-left: 15vh;
+   padding-right: 15vh;
+}
+.p1{
+   width: 20%;
+   height: 100%;
+}
+
+.author1 {
+  width: 100%;
+}
+.date{
+  width: 100%;
+}
+
+.p1 img{
+  width: 20vh;
+  height: 20vh;
+  object-fit: cover;
+  display: block;
+  border-radius: 0.8rem;
+
+}
+
+.p2{
+   background-color: #FFEBCD;
+   width: 80%;
+   height: 100%;
+   border-radius: 0.8rem;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+
+
+@media screen and (max-width: 1068px) {
+
+    section{
+       margin-top: -4vh;
+       height: 100%;
+       padding-left: 2px;
+       padding-right: 2px;
+       display: block;
+    }
+
+    .p1{
+       margin-top: 5vh;
+       height: 100%;
+       display: flex;
+    }
+
+    .author{
+      width: 170vh;
+    }
+    .author1 {
+      width: 38vh;
+      font-size: 12px;
+    }
+    .date{
+      width: 38vh;
+      font-size: 12px;
+    }
+
+    .p1 img{
+      width: 10vh;
+      height: 10vh;
+      object-fit: cover;
+      display: block;
+      border-radius: 0.8rem;
+
+    }
+    .p2 {
+      margin-top: 5vh;
+      padding-left: 1px;
+      padding-right: 1px;
+      font-size: 13px;
+      width: 100%;
+    }
+
+    .p2 p{
+      margin-left: 1px;
+      margin-right: 1px;
+      width: 100%;
+      font-size: 13px;
+    }
+
+}
+
+@media (max-width: 920px){
+
+    section{
+       margin-top: -4vh;
+       height: 100%;
+       padding-left: 2px;
+       padding-right: 2px;
+       display: block;
+    }
+
+    .p1{
+       margin-top: 5vh;
+       height: 100%;
+       display: flex;
+    }
+
+    .author{
+      width: 170vh;
+      padding-right: 2px;
+    }
+    .author1 {
+      width: 38vh;
+      font-size: 12px;
+    }
+    .date{
+      width: 38vh;
+      font-size: 12px;
+    }
+
+    .p1 img{
+      width: 10vh;
+      height: 10vh;
+      object-fit: cover;
+      display: block;
+      border-radius: 0.8rem;
+
+    }
+    .p2 {
+      margin-top: 5vh;
+      padding-left: 1px;
+      padding-right: 1px;
+      font-size: 13px;
+      width: 100%;
+    }
+
+    .p2 p{
+      margin-left: 1px;
+      margin-right: 1px;
+      width: 100%;
+      font-size: 13px;
+    }
+
+}
+
+
+@media screen and (max-width: 812px) {
+    section{
+       margin-top: -4vh;
+       height: 100%;
+       padding-left: 2px;
+       padding-right: 2px;
+       display: block;
+    }
+
+    .p1{
+       margin-top: 5vh;
+       height: 100%;
+       display: flex;
+    }
+
+    .author{
+      width: 170vh;
+    }
+    .author1 {
+      width: 38vh;
+      font-size: 12px;
+    }
+    .date{
+      width: 38vh;
+      font-size: 12px;
+    }
+
+    .p1 img{
+      width: 10vh;
+      height: 10vh;
+      object-fit: cover;
+      display: block;
+      border-radius: 0.8rem;
+
+    }
+    .p2 {
+      margin-top: 5vh;
+      padding-left: 1px;
+      padding-right: 1px;
+      font-size: 13px;
+      width: 100%;
+    }
+
+    .p2 p{
+      margin-left: 1px;
+      margin-right: 1px;
+      width: 100%;
+      font-size: 13px;
+    }
+
+}
+--------------mobile size for article photo--------------------
+@media screen and (max-width: 768px) {
+    section{
+       margin-top: -4vh;
+       height: 100%;
+       padding-left: 2px;
+       padding-right: 2px;
+       display: block;
+    }
+
+    .p1{
+       margin-top: 5vh;
+       height: 100%;
+       display: flex;
+    }
+
+    .author{
+      width: 170vh;
+    }
+    .author1 {
+      width: 38vh;
+      font-size: 12px;
+    }
+    .date{
+      width: 38vh;
+      font-size: 12px;
+    }
+
+    .p1 img{
+      width: 10vh;
+      height: 10vh;
+      object-fit: cover;
+      display: block;
+      border-radius: 0.8rem;
+
+    }
+    .p2 {
+      margin-top: 5vh;
+      padding-left: 1px;
+      padding-right: 1px;
+      font-size: 13px;
+      width: 100%;
+    }
+
+    .p2 p{
+      margin-left: 1px;
+      margin-right: 1px;
+      width: 100%;
+      font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    section{
+       margin-top: -4vh;
+       height: 100%;
+       padding-left: 2px;
+       padding-right: 2px;
+       display: block;
+    }
+
+    .p1{
+       margin-top: 5vh;
+       height: 100%;
+       display: flex;
+    }
+
+    .author{
+      width: 170vh;
+    }
+    .author1 {
+      width: 100%;
+      font-size: 12px;
+    }
+    .date{
+      width: 38vh;
+      font-size: 12px;
+    }
+
+    .p1 img{
+      width: 10vh;
+      height: 10vh;
+      object-fit: cover;
+      display: block;
+      border-radius: 0.8rem;
+
+    }
+    .p2 {
+      margin-top: 5vh;
+      padding-left: 1px;
+      padding-right: 1px;
+      font-size: 13px;
+      width: 100%;
+    }
+
+    .p2 p{
+      margin-left: 1px;
+      margin-right: 1px;
+      width: 100%;
+      font-size: 13px;
+    }
+
+}
+
+
+--------------mobile phone screen ----------
+
+@media screen and (max-width: 480px) {
+    section{
+       margin-top: -4vh;
+       height: 100%;
+       padding-left: 2px;
+       padding-right: 2px;
+       display: block;
+    }
+
+    .p1{
+       margin-top: 5vh;
+       height: 100%;
+       display: flex;
+    }
+
+    .author{
+      width: 170vh;
+    }
+    .author1 {
+      width: 38vh;
+      font-size: 12px;
+    }
+    .date{
+      width: 38vh;
+      font-size: 12px;
+    }
+
+    .p1 img{
+      width: 10vh;
+      height: 10vh;
+      object-fit: cover;
+      display: block;
+      border-radius: 0.8rem;
+
+    }
+    .p2 {
+      margin-top: 5vh;
+      padding-left: 1px;
+      padding-right: 1px;
+      font-size: 13px;
+      width: 100%;
+    }
+
+    .p2 p{
+      margin-left: 1px;
+      margin-right: 1px;
+      width: 100%;
+      font-size: 13px;
+    }
+
+}
